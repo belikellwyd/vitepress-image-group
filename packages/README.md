@@ -1,15 +1,15 @@
-# miletorix-vitepress-image-group
+# vitepress-image-group
 
 Vue 3 component to render responsive image groups with automatic layout styling (big, double or icon).
 
 <p align="center">
-  <img src="https://github.com/miletorix/miletorix-vitepress-image-group/raw/main/assets/demo-1.png" alt="vitepress-enhanced-site-links demo" width="800">
+  <img src="https://github.com/belikellwyd/vitepress-image-group/raw/main/assets/demo-1.png" alt="vitepress-enhanced-site-links demo" width="800">
 </p>
 
 ## Live Demo and more information
 
 ✨ See it in action:  
-👉 [https://miletorix.github.io/miletorix-vitepress-image-group/](https://miletorix.github.io/miletorix-vitepress-image-group/)
+👉 [https://belikellwyd.github.io/vitepress-image-group/](https://belikellwyd.github.io/vitepress-image-group/)
 
 ## Limitations
 
@@ -19,7 +19,7 @@ Vue 3 component to render responsive image groups with automatic layout styling 
 ## Installation
 
 ```sh
-npm i @miletorix/vitepress-image-group
+npm i @belikellwyd/vitepress-image-group
 ```
 
 ## Usage
@@ -31,8 +31,8 @@ npm i @miletorix/vitepress-image-group
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
  
-import { ImageGroup } from '@miletorix/vitepress-image-group' // [!code ++]
-import '@miletorix/vitepress-image-group/style.css' // [!code ++]
+import { ImageGroup } from '@belikellwyd/vitepress-image-group' // [!code ++]
+import '@belikellwyd/vitepress-image-group/style.css' // [!code ++]
 
 export default {
   extends: DefaultTheme,
@@ -84,7 +84,7 @@ export default {
 
 **Output:**
 
-![demo-2](https://github.com/miletorix/miletorix-vitepress-image-group/raw/main/assets/demo-2-1.png) 
+![demo-2](https://github.com/belikellwyd/vitepress-image-group/raw/main/assets/demo-2-1.png) 
 
 ### Image Group - `double`
 
@@ -103,7 +103,7 @@ export default {
 
 **Output:**
 
-![demo-3](https://github.com/miletorix/miletorix-vitepress-image-group/raw/main/assets/demo-3-2.png) 
+![demo-3](https://github.com/belikellwyd/vitepress-image-group/raw/main/assets/demo-3-2.png) 
 
 ### Image Group - `icon`
 
@@ -124,7 +124,7 @@ export default {
 
 **Output:**
 
-![demo-4](https://github.com/miletorix/miletorix-vitepress-image-group/raw/main/assets/demo-4-2.png) 
+![demo-4](https://github.com/belikellwyd/vitepress-image-group/raw/main/assets/demo-4-2.png) 
 
 ### Image Group - auto
 
@@ -141,7 +141,7 @@ export default {
 
 **Output:**
 
-![demo-5](https://github.com/miletorix/miletorix-vitepress-image-group/raw/main/assets/demo-5.png) 
+![demo-5](https://github.com/belikellwyd/vitepress-image-group/raw/main/assets/demo-5.png) 
 
 ### Image Group - manual
 
@@ -159,4 +159,4 @@ export default {
 
 **Output:**
 
-![demo-6](https://github.com/miletorix/miletorix-vitepress-image-group/raw/main/assets/demo-6.png) 
+![demo-6](https://github.com/belikellwyd/vitepress-image-group/raw/main/assets/demo-6.png) 

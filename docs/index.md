@@ -6,16 +6,16 @@ outline: [2, 3]
 sidebar: false
 ---
 
-# miletorix-vitepress-image-group 
+# vitepress-image-group 
 
 Vue 3 component to render responsive image groups with automatic layout styling (big, double or icon).
 
-![npm](https://img.shields.io/npm/v/@miletorix/vitepress-image-group)  
-![npm](https://img.shields.io/npm/dw/@miletorix/vitepress-image-group)  
-![license](https://img.shields.io/npm/l/@miletorix/vitepress-image-group)
+![npm](https://img.shields.io/npm/v/@belikellwyd/vitepress-image-group)  
+![npm](https://img.shields.io/npm/dw/@belikellwyd/vitepress-image-group)  
+![license](https://img.shields.io/npm/l/@belikellwyd/vitepress-image-group)
 
 <p align="center">
-  <img src="/demo-1.png" alt="miletorix-vitepress-image-group demo" width="800">
+  <img src="/demo-1.png" alt="vitepress-image-group demo" width="800">
 </p>
 
 ## Limitations
@@ -26,7 +26,7 @@ Vue 3 component to render responsive image groups with automatic layout styling 
 ## Installation
 
 ```sh [npm]
-npm i @miletorix/vitepress-image-group
+npm i @belikellwyd/vitepress-image-group
 ```
 
 ## Usage
@@ -37,8 +37,8 @@ npm i @miletorix/vitepress-image-group
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
  
-import { ImageGroup } from '@miletorix/vitepress-image-group' // [!code ++]
-import '@miletorix/vitepress-image-group/style.css' // [!code ++]
+import { ImageGroup } from '@belikellwyd/vitepress-image-group' // [!code ++]
+import '@belikellwyd/vitepress-image-group/style.css' // [!code ++]
 
 export default {
   extends: DefaultTheme,

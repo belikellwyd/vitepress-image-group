@@ -1,8 +1,8 @@
-# miletorix-vitepress-image-group
+# vitepress-image-group
 
 Vue 3 component to render responsive image groups with automatic layout styling (big, double or icon).
 
-![npm](https://img.shields.io/npm/v/@miletorix/vitepress-image-group) ![npm](https://img.shields.io/npm/dw/@miletorix/vitepress-image-group) ![license](https://img.shields.io/npm/l/@miletorix/vitepress-image-group)
+![npm](https://img.shields.io/npm/v/@belikellwyd/vitepress-image-group) ![npm](https://img.shields.io/npm/dw/@belikellwyd/vitepress-image-group) ![license](https://img.shields.io/npm/l/@belikellwyd/vitepress-image-group)
 
 <p align="center">
   <img src="/assets/demo-1.png" alt="vitepress-enhanced-site-links demo" width="800">
@@ -11,10 +11,10 @@ Vue 3 component to render responsive image groups with automatic layout styling 
 ## Live Demo and more information
 
 ✨ See it in action:  
-👉 [https://miletorix.github.io/miletorix-vitepress-image-group/](https://miletorix.github.io/miletorix-vitepress-image-group/)
+👉 [https://belikellwyd.github.io/vitepress-image-group/](https://belikellwyd.github.io/vitepress-image-group/)
 
 📦 NPM Package:  
-👉 [https://www.npmjs.com/package/@miletorix/vitepress-image-group](https://www.npmjs.com/package/@miletorix/vitepress-image-group)
+👉 [https://www.npmjs.com/package/@belikellwyd/vitepress-image-group](https://www.npmjs.com/package/@belikellwyd/vitepress-image-group)
 
 ## Limitations
 
@@ -24,7 +24,7 @@ Vue 3 component to render responsive image groups with automatic layout styling 
 ## Installation
 
 ```sh
-npm i @miletorix/vitepress-image-group
+npm i @belikellwyd/vitepress-image-group
 ```
 
 ## Usage
@@ -36,8 +36,8 @@ npm i @miletorix/vitepress-image-group
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
  
-import { ImageGroup } from '@miletorix/vitepress-image-group' // [!code ++]
-import '@miletorix/vitepress-image-group/style.css' // [!code ++]
+import { ImageGroup } from '@belikellwyd/vitepress-image-group' // [!code ++]
+import '@belikellwyd/vitepress-image-group/style.css' // [!code ++]
 
 export default {
   extends: DefaultTheme,

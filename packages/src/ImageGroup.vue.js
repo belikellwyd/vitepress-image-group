@@ -1,5 +1,5 @@
-/// <reference types="C:/Users/user1/Desktop/miletorix-vitepress-image-group/packages/node_modules/@vue/language-core/types/template-helpers.d.ts" />
-/// <reference types="C:/Users/user1/Desktop/miletorix-vitepress-image-group/packages/node_modules/@vue/language-core/types/props-fallback.d.ts" />
+/// <reference types="C:/Users/stahovskis/Documents/projects/vitepress-image-group/packages/node_modules/@vue/language-core/types/template-helpers.d.ts" />
+/// <reference types="C:/Users/stahovskis/Documents/projects/vitepress-image-group/packages/node_modules/@vue/language-core/types/props-fallback.d.ts" />
 import { computed } from 'vue';
 const props = defineProps();
 const computedType = computed(() => {

@@ -3,11 +3,11 @@ import DefaultTheme from 'vitepress/theme'
 
 import 'virtual:group-icons.css'
 
-import { ImageGroup } from '@miletorix/vitepress-image-group'
-import '@miletorix/vitepress-image-group/style.css'
+import { ImageGroup } from '@belikellwyd/vitepress-image-group'
+import '@belikellwyd/vitepress-image-group/style.css'
 
-import BackToTopButton from '@miletorix/vitepress-back-to-top-button'
-import '@miletorix/vitepress-back-to-top-button/style.css'
+import BackToTopButton from '@belikellwyd/vitepress-back-to-top-button'
+import '@belikellwyd/vitepress-back-to-top-button/style.css'
 
 export default {
   extends: DefaultTheme,
